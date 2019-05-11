@@ -1,0 +1,727 @@
+/*
+   CCCCCC       SSSSSSSSS     SSSSSSSSS  
+ CCCCCCCCCC    SSSSSSSSSSS   SSSSSSSSSSS 
+CCC      CCC   SSS     SSS   SSS     SSS 
+CCC            SSS           SSS         
+CCC             SSSSSSSSS     SSSSSSSSS  
+CCC                    SSS           SSS 
+CCC      CCC   SSS     SSS   SSS     SSS 
+ CCCCCCCCCC    SSSSSSSSSSS   SSSSSSSSSSS 
+   CCCCCC       SSSSSSSSS     SSSSSSSSS  
+
+Web Page: Mache
+Web Page URL: https://tasnimulshadi.github.io/ct-11thclass-a1/
+Author: Tasnimul Islam Shadi
+Author URL: https://www.linkedin.com/in/tasnimulislamshadi/
+Author Email: tasnimulislamshadi@gmail.com
+
+Version: 1.0
+
+This Web page is desinged for educational purposes.
+You can copy it to make something cool, have fun, and share what you've learned with others.
+
+----------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Global CSS
+2. Header
+	2.1. Navigation
+		2.1.1. Nav Button When Screen Size is Small
+	2.2. Hero
+3. Redline Section
+4. Mac Section
+	4.1. Left Content - Mac Section
+	4.2. Left Content - Right Image
+5. Service Section
+6. Quote Section
+	6.1. Angle Left & Right - Quote Section
+7. Price Section
+	7.1. Content - Price Section
+	7.2. $ Box - Price Section
+8. Feture Section
+	8.1. Feture Box - Feture Section
+9. Community Section
+10. Update Section
+	10.1. Content - Update Section
+	10.2. Update Box - Update Section
+		10.2.1. Image - Update Box
+			10.2.1.1. Image Hover - Image - Update Box
+		10.2.2. Text - Update Box
+	10.3. Update Bottom Arrow Down - Update Section
+11. Free Section
+12. Download Section
+13. Footer
+	13.1. Footer Left
+	13.2. Footer Right
+===============================================================================================*/
+
+/*=============== Global CSS - Start ==================*/
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+.no-pad {
+	padding: 0;
+}
+section {
+	padding: 0!important;
+}
+
+hr {
+	background-color: #ed145b;
+	border: 1px solid #ed145b;
+    width: 170px;
+    margin-bottom: 30px!important;
+    margin-top: 25px!important;
+}
+.btn {
+	font-size: 13px;
+	font-family: arial;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 11px 0px;
+    width: 160px;
+    background-color: #ed145b;
+    color: #fff;
+	-webkit-transition: .8s ease;
+	-moz-transition: .8s ease;
+	-o-transition: .8s ease;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #ed145b;
+}
+.btn-white {
+    background-color: #fff;
+    color: #ed145b;
+    -webkit-transition: .8s ease;
+	-moz-transition: .8s ease;
+	-o-transition: .8s ease;
+}
+.btn-white:hover {
+    background-color: #ed145b;
+    color: #fff!important;
+}
+
+h1 {
+    font-size: 44px;
+    color: #545454;
+    font-style: italic;
+}
+p {
+	color: #545454;
+	font-size: 13px;
+    line-height: 30px;
+}
+
+img {
+	display: block;
+}
+
+/*=============== Global CSS - End ==================*/
+
+
+/*===============  Header - Start ==================*/
+
+header {
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0!important;
+}
+
+/*-------------------- Navigation - Start --------------------*/
+
+.navbar {
+	background-color: transparent;
+	padding: 20px 0;
+}
+.nav-link {
+	color: #fff!important;
+	font-size: 17px;
+    font-weight: bold;
+	-webkit-transition: .8s ease;
+	-moz-transition: .8s ease;
+	-o-transition: .8s ease;
+}
+.nav-link:hover {
+	color: #ed145b!important;
+}
+
+.nav-link.js-scroll-trigger.active {
+	color: #ed145b!important;
+}
+
+/*------------------Nav Button When Screen Size is Small---------------------*/
+nav button {
+    border-color: transparent!important;
+}
+.fa.fa-bars {
+    color: #ed145b;
+    font-size: 25px;
+}
+
+/*----------------  Navigation - End ---------------------*/
+
+/*---------------- Hero Start -----------------------*/
+
+.hero-content {
+	text-align: center;
+	margin: 150px 0px;
+}
+.hero-content h1 {
+	text-transform: uppercase;
+    color: #fff!important;
+    font-style: normal;
+}
+.hero-content h1 span {
+    font-family: arial;
+    font-weight: bold;
+}
+.hero-content hr {
+    
+}
+.hero-content p {
+	font-size: 22px;
+	margin: 0px;
+    color: #fff!important;
+}
+.hero-content button {
+	margin-top: 60px;
+}
+
+/*-----------------Hero End --------------------------*/
+
+/*===============  Header - End ==================*/
+
+
+
+/*===============  Redline Section - Start ==================*/
+
+.section-redline {
+	background: url(../img/redline.png)no-repeat;
+    background-size: cover;
+    padding: 0!important;
+    height: 25px;
+}
+
+/*===============  Redline Section - End ==================*/
+
+
+
+/*===============  Mac Section - Start ==================*/
+
+
+/*---------------- Mac Section - Left Content --------------*/
+
+.mac-content {
+	padding-top: 100px;
+}
+.mac-content h1 {
+
+}
+.mac-content hr {
+	margin: 0;
+}
+.mac-content p {
+	padding-right: 70px;
+}
+.mac-content a {
+	font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ed145b;
+    text-decoration: none;
+	-webkit-transition: .8s ease;
+	-moz-transition: .8s ease;
+	-o-transition: .8s ease;
+}
+.mac-content a:hover {
+	color: black;
+}
+.fa.fa-play-circle-o {
+	font-size: 23px;
+    margin-left: 10px;
+}
+
+/*---------------- Mac Section - Right Image --------------*/
+
+.mac-image {
+	width: 55px!important;
+    padding: 0;
+    margin-top: 70px;
+    position: relative;
+    height: 380px;
+}
+.mac-image img {
+	width: 660px!important;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+/*===============  Mac Section - End ==================*/
+
+
+
+/*===============  Service Section - Start ==================*/
+
+.section-service {
+    margin: 80px 0px;
+}
+
+/*----------- Service Section - Content ------------*/
+
+.service-content {
+	text-align: center;
+	margin-bottom: 70px;
+}
+.service-content p {
+	padding: 0px 25%;
+}
+
+/*----------- Service Section - Content ------------*/
+
+.service-icons {
+	
+}
+.service-icons-image {
+	border: 2px solid #cfcfcf;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+.service-icons-image img {
+	margin: 0 auto;
+    margin-top: 39px;
+}
+.service-icons p{
+	text-align: center;
+	color: #ed145b;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+/*===============  Service Section - End ==================*/
+
+
+
+/*===============  Quote Section - Start ==================*/
+
+.quote {
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+.quote-content {
+	text-align: center;
+	position: relative;
+	padding: 90px 0;
+}
+
+.fa.fa-quote-left {
+	color: #ed145b;
+	margin-bottom: 15px;
+}
+.quote-content p {
+	color: #fff;
+    font-size: 20px;
+    padding: 0 180px;
+}
+.fa.fa-quote-right {
+	color: #ed145b;
+	margin-top: 15px;
+}
+
+/*----------- Quote Section - Angle Left & Right --------------*/ 
+
+.fa.fa-angle-left {
+	position: absolute;
+	left: 0;
+	top: 43%;
+	color: #cfcfcf;
+	font-size: 40px;
+}
+.fa.fa-angle-left:hover {
+	cursor: pointer;
+	color: #ed145b;
+}
+
+.fa.fa-angle-right {
+	position: absolute;
+	right: 0;
+	top: 43%;
+	color: #cfcfcf;
+	font-size: 40px;
+}
+.fa.fa-angle-right:hover {
+	cursor: pointer;
+	color: #ed145b;
+}
+
+/*===============  Quote Section - End ==================*/
+
+
+
+/*===============  Price Section - Start ==================*/
+
+.section-price {
+	padding: 130px 0!important;
+}
+
+/*------------ Price Section - Content --------------*/
+
+.price-content {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.price-content p {
+	padding: 0px 240px;
+}
+
+/*------------ Price Section - $ Box --------------*/
+
+.price-box {
+	text-align: center;
+	position: relative;
+    -webkit-transition: .8s ease;
+	-moz-transition: .8s ease;
+	-o-transition: .8s ease;
+}
+.price-box:hover .price-box-top {
+	background-color: #ed145b;
+}
+
+.price-box-top {
+    background-color: #5a5a5a;
+    font-weight: bold;
+    padding: 15px 0 45px 0;
+}
+.price-box-top h1 {
+    font-size: 60px;
+    font-style: normal;
+    font-family: arial;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.price-box-top h1 span {
+	font-size: 25px;
+    margin-right: 3px;
+}
+.price-box p {
+    color: #fff;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.price-box ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 50px;
+}
+.price-box ul li {
+	color: #545454;
+	font-size: 13px;
+    line-height: 30px;
+}
+.price-btn-top {
+	position: absolute;
+	top: 130px;
+    left: 23%;
+    color: #5a5a5a!important;
+    font-weight: bold;
+    font-family: arial;
+}
+.price-btn-bottom:hover {
+	border-color: #ed145b;
+}
+
+/*===============  Price Section - End ==================*/
+
+
+
+/*===============  Feture Section - Start ==================*/
+
+/*---------------------- Feture Section Feture Box ------------------*/
+
+.feature-box {
+	padding: 40px 0 100px 0!important;
+}
+
+.feature-box-img {
+	width: 25%;
+	float: left;
+}
+.feature-box-img img {
+	margin: 8px auto;
+}
+
+.feature-box-text {
+	width: 75%;
+	float: left;
+}
+.feature-box-text h4 {
+	color: #ed145b;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.feature-box-text p {
+	line-height: 25px;
+}
+
+/*===============  Feture Section - End ==================*/
+
+
+
+/*===============  Community Section - End ==================*/
+
+.section-community {
+	background-color: #ed145b;
+	padding: 50px 0!important;
+}
+
+.community-text {
+	padding: 0;
+}
+.community-text h1 {
+	color: #fff;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 0;
+	text-align: center;
+}
+.community-text h1 span{
+	font-weight: bold;
+	font-family: arial;
+}
+
+.community-button button {
+	display: block;
+	margin: 0 auto;
+}
+.community-button button:hover {
+	border-color: #fff;
+}
+
+/*===============  Community Section - Start ==================*/
+
+
+
+/*===============  Update Section - End ==================*/
+
+.section-update {
+	padding: 110px 0 65px 0 !important;
+}
+
+/*----------------- Update Section - Content --------------*/
+
+.update-content {
+	text-align: center;
+	padding-bottom: 60px;
+}
+.update-content p {
+	padding: 15px;
+}
+
+/*------------------------ Update Section - Update Box --------------------------*/
+
+/*-- Update Box - Image --*/
+.update-box-img {
+    width: 350px;
+	height: 235px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.update-box-img img {
+	width: 100%;
+	height: 100%;
+}
+.update-box-img:hover .update-box-img-hover{
+	left: 0;
+	cursor: pointer;
+}
+
+/*-- Update Box - Image - Hover --*/
+.update-box-img-hover {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	background-color: #ed145bab;
+	z-index: 1;
+}
+.fa.fa-search {
+	color: #fff;
+    position: absolute;
+    top: 43%;
+    left: 44%;
+    font-size: 35px;
+}
+
+/*-- Update Box - Text --*/
+.update-box-text {
+	width: 350px;
+	margin: 0 auto;
+}
+.update-box-text h6 {
+	font-size: 17px;
+	font-weight: bold;
+	margin: 20px 15px 0px 15px;
+}
+.update-box-text p {
+	line-height: 25px;
+	margin: 10px 15px 20px 15px;
+}
+
+/*------------------------ Update Section - Update Bottom Arrow Down --------------------------*/
+.update-bottom {
+	text-align: center;
+}
+.update-bottom p {
+	color: #ed145b;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+}
+.update-bottom a {
+	text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.update-bottom a:hover {
+	cursor: pointer;
+}
+.fa.fa-angle-down {
+    color: #ed145b;
+    font-size: 35px;
+    line-height: 0px;
+}
+
+/*===============  Update Section - Start ==================*/
+
+
+
+/*===============  Free Section - End ==================*/
+
+.section-free {
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.free-content {
+	text-align: center;
+	padding: 120px 0;
+}
+.free-content h1 {
+	color: #fff;
+}
+.free-content p {
+	color: #fff;
+	padding: 0 225px;
+}
+.free-content button {
+	margin-top: 25px;
+}
+
+/*===============  Free Section - Start ==================*/
+
+
+
+/*===============  Download Section - End ==================*/
+
+.section-download {
+	padding: 70px 0!important;
+}
+
+/*-------------------Download Section - Right Image ------------------*/
+
+.download-image {
+	width: 55px!important;
+    padding: 0;
+    position: relative;
+    height: 470px;
+}
+.download-image img {
+	width: 630px!important;
+    right: 25px;
+    top: 0;
+    position: absolute;
+}
+
+/*-------------------Download Section - Left Content ------------------*/
+
+.download-content {
+	padding-top: 50px;
+}
+.download-content hr {
+	margin: 0;
+}
+.download-content p {
+	padding-right: 70px;
+}
+.download-content button {
+	margin-top: 25px;
+}
+.download-content button:hover {
+	border-color: #ed145b;
+}
+
+/*===============  Download Section - Start ==================*/
+
+
+
+/*===============  Footer - Start ==================*/
+
+footer {
+	background-color: #2b2b2b;
+	padding: 40px 0;
+}
+
+/*---------------- Footer Left ------------------*/
+
+.footer-left {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+/*---------------- Footer Right ------------------*/
+
+.footer-right {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+.footer-right span {
+	font-weight: bold;
+}
+.footer-right span span {
+	color: #ed145b;
+}
+.footer-right span span span {
+	color: #fff;
+	font-weight: normal;
+	font-size: 17px;
+}
+
+/*===============  Footer - End ==================*/
+
+
+

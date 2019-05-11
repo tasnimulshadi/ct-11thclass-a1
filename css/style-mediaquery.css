@@ -1,0 +1,835 @@
+/*
+Media Query CSS Stylesheet
+
+Web Page: Mache
+Web Page URL: https://tasnimulshadi.github.io/ct-11thclass-a1/ 
+Author: Tasnimul Islam Shadi
+Author URL: https://www.linkedin.com/in/tasnimulislamshadi/
+Author Email: tasnimulislamshadi@gmail.com
+
+Version: 1.0
+
+This Web page is desinged for educational purposes.
+You can copy it to make something cool, have fun, and share what you've learned with others.
+
+----------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Media Query For (0px To 500px)
+2. Media Query For (501px To 767px)
+3. Media Query For (768px To 1199px)
+4. Media Query For (1200px To All)
+===============================================================================================*/
+
+/*================================================================================================================
+1. Media Query For (0px To 500px) Start:
+=================================================================================================================*/
+
+@media (min-width: 0px) and (max-width: 500px){
+
+/*------------------Global Css-------------------*/
+
+h1 {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+hr {
+    width: 110px;
+    margin-bottom: 15px!important;
+    margin-top: 15px!important;
+}
+p {
+    line-height: 22px;
+}
+.btn {
+    font-size: 11px;
+    padding: 9px 0px;
+    width: 130px;
+}
+
+
+/*------------------Navigation--------------------*/
+
+.navbar {
+	padding: 20px 15px;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+/*------------------Header-----------------*/
+
+header {
+    background-position: center;
+}
+.hero-content {
+    margin: 20px 0px;
+}
+.hero-content p {
+    font-size: 14px;
+}
+.hero-content button {
+    margin-top: 35px;
+}
+
+/*------------------Redline-----------------*/
+
+.section-redline {
+    background-position: right;
+}
+
+/*------------------Mac-----------------*/
+
+.mac-content {
+    padding-top: 20px;
+}
+.mac-content p {
+    padding-right: 0px;
+}
+
+.mac-image {
+    width: 100%!important;
+    padding: 0 30px;
+    margin-top: 20px;
+    position: unset;
+    height: unset;
+}
+.mac-image img {
+    width: 100%!important;
+    position: unset;
+}
+
+/*------------------Service-----------------*/
+
+.section-service {
+    margin: 20px 0 0 0;
+}
+.service-content {
+    margin-bottom: 10px;
+}
+.service-content p {
+    padding: 0px;
+}
+
+.service-icons p {
+    margin-top: 10px;
+}
+
+/*------------------Quote-----------------*/
+
+.quote-content {
+    padding: 50px 0;
+}
+
+.quote-content p {
+    font-size: 13px;
+    padding: 0 70px;
+}
+.fa.fa-angle-left {
+    left: 2%;
+    font-size: 26px;
+}
+.fa.fa-angle-right {
+    right: 2%;
+    font-size: 26px;
+}
+
+/*------------------Price--------------------*/
+
+.section-price {
+    padding: 20px 0!important;
+}
+.price-content p {
+    padding: 0px 15px;
+}
+
+.price-content {
+    margin-bottom: 15px;
+}
+
+.price-box {
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.price-box-top {
+    padding: 10px 0 35px 0;
+}
+
+.price-btn-top {
+    top: 107px;
+    left: 24%;
+}
+
+.price-box ul {
+    margin-top: 30px;
+}
+.price-box ul li {
+    font-size: 11px;
+    line-height: 25px;
+}
+
+/*------------------Feature--------------------*/
+
+.feature-box {
+    padding: 0px 50px 20px 50px!important;
+}
+.feature-box-text h4 {
+    font-size: 12px;
+    margin: 3px 0;
+}
+.feature-box-text p {
+    line-height: 20px;
+}
+
+/*------------------Community--------------------*/
+
+.section-community {
+    padding: 20px 0!important;
+}
+.community-text h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.community-button {
+    margin-top: 20px;
+}
+
+/*------------------Update--------------------*/
+
+.section-update {
+	padding: 20px 0 5px 0 !important;
+}
+.update-content {
+	padding-bottom: 0px;
+}
+
+.update-box-img {
+    width: 280px;
+	height: 195px;
+}
+
+.update-box-text {
+	width: 280px;
+}
+.update-box-text h6 {
+	font-size: 16px;
+	margin: 10px 15px 0px 15px;
+}
+.update-box-text p {
+	line-height: 20px;
+}
+.update-bottom p {
+    font-size: 10px;
+    margin-top: 0px;
+}
+.fa.fa-angle-down {
+    font-size: 25px;
+}
+
+/*------------------Free--------------------*/
+
+.free-content {
+	padding: 50px 0;
+}
+.free-content p {
+	padding: 0 30px;
+}
+.free-content button {
+	margin-top: 10px;
+}
+
+/*------------------Footer--------------------*/
+
+.section-download {
+	padding: 10px 0 25px 0 !important;
+}
+
+.download-image {
+	width: 100%!important;
+    padding: 0 30px;
+    margin-top: 20px;
+    position: unset;
+    height: unset;
+}
+.download-image img {
+	width: 100%!important;
+    position: unset;
+}
+
+.download-content {
+	padding-top: 15px;
+}
+.download-content hr {
+	margin: 0;
+}
+.download-content p {
+	padding-right: 0px;
+}
+.download-content button {
+	margin-top: 0px;
+}
+
+/*------------------Footer--------------------*/
+
+footer {
+	padding: 20px 0;
+}
+.footer-left {
+	font-size: 10px;
+}
+.footer-right {
+	font-size: 10px;
+}
+.footer-right span span span {;
+	font-size: 10px;
+}
+
+/*-------------end----------------*/
+}
+
+/*=============================================================================================================
+2. Media Query For (501px To 767px) Start:
+=============================================================================================================*/
+
+@media (min-width: 501px) and (max-width: 767px){
+
+/*------------------Global Css-------------------*/
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+hr {
+    width: 110px;
+    margin-bottom: 15px!important;
+    margin-top: 15px!important;
+}
+p {
+    line-height: 22px;
+}
+.btn {
+    font-size: 11px;
+    padding: 9px 0px;
+    width: 130px;
+}
+
+
+/*------------------Navigation--------------------*/
+
+.navbar {
+	padding: 20px 15px;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+/*------------------Header-----------------*/
+
+header {
+    background-position: center;
+}
+.hero-content {
+    margin: 20px 0px;
+}
+.hero-content p {
+    font-size: 14px;
+}
+.hero-content button {
+    margin-top: 35px;
+}
+
+/*------------------Redline-----------------*/
+
+.section-redline {
+    background-position: right;
+}
+
+/*------------------Mac-----------------*/
+
+.mac-content {
+    padding-top: 20px;
+}
+.mac-content p {
+    padding-right: 0px;
+}
+
+.mac-image {
+    width: 100%!important;
+    padding: 0 30px;
+    margin-top: 20px;
+    position: unset;
+    height: unset;
+}
+.mac-image img {
+    width: 100%!important;
+    position: unset;
+}
+
+/*------------------Service-----------------*/
+
+.section-service {
+    margin: 20px 0 0 0;
+}
+.service-content {
+    margin-bottom: 10px;
+}
+.service-content p {
+    padding: 0px;
+}
+
+.service-icons p {
+    margin-top: 10px;
+}
+
+/*------------------Quote-----------------*/
+
+.quote-content {
+    padding: 50px 0;
+}
+
+.quote-content p {
+    font-size: 13px;
+    padding: 0 70px;
+}
+.fa.fa-angle-left {
+    left: 2%;
+    font-size: 26px;
+}
+.fa.fa-angle-right {
+    right: 2%;
+    font-size: 26px;
+}
+
+/*------------------Price--------------------*/
+
+.section-price {
+    padding: 20px 0!important;
+}
+.price-content p {
+    padding: 0px 15px;
+}
+
+.price-content {
+    margin-bottom: 15px;
+}
+
+.price-box {
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.price-box-top {
+    padding: 10px 0 35px 0;
+}
+
+.price-btn-top {
+    top: 118px;
+    left: 24%;
+}
+
+.price-box ul {
+    margin-top: 30px;
+}
+.price-box ul li {
+    font-size: 11px;
+    line-height: 25px;
+}
+
+/*------------------Feature--------------------*/
+
+.feature-box {
+    padding: 0px 50px 20px 50px!important;
+}
+.feature-box-text h4 {
+    font-size: 12px;
+    margin: 3px 0;
+}
+.feature-box-text p {
+    line-height: 20px;
+}
+
+/*------------------Community--------------------*/
+
+.section-community {
+    padding: 20px 0!important;
+}
+.community-text h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.community-button {
+    margin-top: 20px;
+}
+
+/*------------------Update--------------------*/
+
+.section-update {
+	padding: 20px 0 5px 0 !important;
+}
+.update-content {
+	padding-bottom: 0px;
+}
+
+.update-box-img {
+    width: 350px;
+	height: 235px;
+}
+
+.update-box-text {
+	width: 350px;
+}
+.update-box-text h6 {
+	font-size: 17px;
+	margin: 20px 15px 0px 15px;
+}
+.update-box-text p {
+	line-height: 22px;
+}
+.update-bottom p {
+    font-size: 13px;
+    margin-top: 0px;
+}
+.fa.fa-angle-down {
+    font-size: 25px;
+}
+
+/*------------------Free--------------------*/
+
+.free-content {
+	padding: 50px 0;
+}
+.free-content p {
+	padding: 0 30px;
+}
+.free-content button {
+	margin-top: 10px;
+}
+
+/*------------------Footer--------------------*/
+
+.section-download {
+	padding: 10px 0 25px 0 !important;
+}
+
+.download-image {
+	width: 100%!important;
+    padding: 0 30px;
+    margin-top: 20px;
+    position: unset;
+    height: unset;
+}
+.download-image img {
+	width: 100%!important;
+    position: unset;
+}
+
+.download-content {
+	padding-top: 15px;
+}
+.download-content hr {
+	margin: 0;
+}
+.download-content p {
+	padding-right: 0px;
+}
+.download-content button {
+	margin-top: 0px;
+}
+
+/*------------------Footer--------------------*/
+
+footer {
+	padding: 20px 0;
+}
+.footer-left {
+	font-size: 10px;
+}
+.footer-right {
+	font-size: 10px;
+}
+.footer-right span span span {;
+	font-size: 10px;
+}
+
+/*-------------end----------------*/
+
+}
+
+/*==================================================================================================================
+3. Media Query For (768px To 1199px) Start:
+==================================================================================================================*/
+
+@media (min-width: 768px) and (max-width: 1199px){
+
+/*------------------Global Css-------------------*/
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+hr {
+    width: 110px;
+    margin-bottom: 15px!important;
+    margin-top: 15px!important;
+}
+p {
+    line-height: 22px;
+}
+.btn {
+    font-size: 11px;
+    padding: 9px 0px;
+    width: 130px;
+}
+
+
+/*------------------Navigation--------------------*/
+
+.navbar {
+	padding: 20px 15px;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+/*------------------Header-----------------*/
+
+header {
+    background-position: center;
+}
+.hero-content {
+    margin: 50px 0px;
+}
+.hero-content h1 {
+    font-size: 35px;
+}
+.hero-content p {
+    font-size: 17px;
+    line-height: 25px;
+}
+.hero-content button {
+    margin-top: 65px;
+}
+
+/*------------------Redline-----------------*/
+
+.section-redline {
+    background-position: right;
+}
+
+/*------------------Mac-----------------*/
+
+.mac-content {
+    padding-top: 20px;
+}
+.mac-content p {
+    padding-right: 0px;
+}
+
+.mac-image {
+    width: 100%!important;
+    padding: 0 30px;
+    margin-top: 20px;
+    position: unset;
+    height: unset;
+}
+.mac-image img {
+    width: 100%!important;
+    position: unset;
+}
+
+/*------------------Service-----------------*/
+
+.section-service {
+	margin: 40px 0;
+}
+.service-content {
+    margin-bottom: 20px;
+}
+.service-content p {
+    padding: 0px;
+}
+
+.service-icons p {
+    margin-top: 10px;
+}
+
+/*------------------Quote-----------------*/
+
+.quote-content p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/*------------------Price--------------------*/
+
+.section-price {
+    padding: 40px 0!important;
+}
+.price-content p {
+    padding: 0px 15px;
+}
+
+.price-content {
+    margin-bottom: 15px;
+}
+
+.price-box {
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.price-box-top {
+    padding: 10px 0 35px 0;
+}
+
+.price-btn-top {
+    top: 118px;
+    left: 24%;
+}
+
+.price-box ul {
+    margin-top: 30px;
+}
+.price-box ul li {
+    font-size: 12px;
+    line-height: 30px;
+}
+
+/*------------------Feature--------------------*/
+
+.feature-box {
+    padding: 0px 10px 20px 0px !important;
+}
+
+.feature-box-img img {
+    margin: 10px 0;
+    width: 80%;
+}
+
+.feature-box-text h4 {
+    font-size: 12px;
+    margin: 3px 0;
+}
+.feature-box-text p {
+    line-height: 20px;
+}
+
+/*------------------Community--------------------*/
+
+.section-community {
+    padding: 40px 0!important;
+}
+.community-text h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.community-button {
+    margin-top: 0px;
+}
+
+/*------------------Update--------------------*/
+
+.section-update {
+	padding: 35px 0 30px 0 !important;
+}
+.update-content {
+	padding-bottom: 0px;
+}
+
+.update-box-img {
+    width: 240px;
+	height: 170px;
+}
+
+.update-box-text {
+	width: 240px;
+}
+.update-box-text h6 {
+	font-size: 17px;
+	margin: 20px 15px 0px 15px;
+}
+.update-box-text p {
+	line-height: 22px;
+}
+.update-bottom p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.fa.fa-angle-down {
+    font-size: 30px;
+}
+
+/*------------------Free--------------------*/
+
+.free-content {
+	padding: 65px 0;
+}
+.free-content p {
+	padding: 0 30px;
+}
+.free-content button {
+	margin-top: 25px;
+}
+
+/*------------------Footer--------------------*/
+
+.section-download {
+	padding: 40px 0 !important;
+}
+
+.download-image {
+	width: 100%!important;
+    padding: 0 30px;
+    margin-top: 20px;
+    position: unset;
+    height: unset;
+}
+.download-image img {
+	width: 100%!important;
+    position: unset;
+}
+
+.download-content {
+	padding-top: 15px;
+}
+.download-content hr {
+	margin: 0;
+}
+.download-content p {
+	padding-right: 0px;
+}
+.download-content button {
+	margin-top: 0px;
+}
+
+/*------------------Footer--------------------*/
+
+footer {
+	padding: 30px 0;
+}
+.footer-left {
+	font-size: 15px;
+}
+.footer-right {
+	font-size: 15px;
+}
+.footer-right span span span {;
+	font-size: 15px;
+}
+
+/*-------------end----------------*/
+
+}
+
+/*======================================================================================================================
+4. Media Query For (1200px To All)
+======================================================================================================================*/
+
+@media (min-width: 1200px) {
+
+
+}
