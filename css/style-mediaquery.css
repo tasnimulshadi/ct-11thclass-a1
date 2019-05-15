@@ -182,7 +182,11 @@ header {
 .feature-box-text p {
     line-height: 20px;
 }
-
+.feature-box-img img {
+    width: 32px;
+}
+	
+	
 /*------------------Community--------------------*/
 
 .section-community {
