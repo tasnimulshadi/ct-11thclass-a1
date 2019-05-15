@@ -778,6 +778,12 @@ header {
 .free-content button {
 	margin-top: 25px;
 }
+	
+/*------Download-----*/
+	
+.download-content button {
+    width: 120px;
+}
 
 /*------------------Footer--------------------*/
 
