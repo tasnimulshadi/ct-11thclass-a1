@@ -63,12 +63,6 @@ You can copy it to make something cool, have fun, and share what you've learned 
 .no-pad {
 	padding: 0;
 }
-.no-pad-r {
-	padding-right: 0;
-}
-.no-pad-l {
-	padding-left: 0;
-}
 section {
 	padding: 0!important;
 }
@@ -526,6 +520,10 @@ nav button {
 
 .section-update {
 	padding: 110px 0 65px 0 !important;
+}
+.update-box {
+    width: 90%;
+    margin: 0 auto;
 }
 
 /*----------------- Update Section - Content --------------*/
